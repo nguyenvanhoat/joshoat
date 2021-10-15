@@ -107,11 +107,15 @@ button {
     color: #ffffff;
 }
 
+.section_one{
+    width: 100%;
+    display: flex;
+}
+
 .section_one .one_left {
     border: solid 1px #818181;
-    width: 800px;
+    width: 60%;
     min-height: 490px;
-    float: left;
 }
 
 .section_one .top .left {
@@ -151,7 +155,7 @@ button {
 }
 
 .section_one .one_right {
-    float: right;
+    width: 40%;
 }
 
 .section_one .one_right .youtube_link {
